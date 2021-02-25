@@ -1,0 +1,40 @@
+.cuadro1{
+    background-color: #ff0000;
+    width: 300px;
+    height: 300px;
+}
+.cuadro2{
+    background-color: #ff0033;
+    width: 300px;
+    height: 300px;
+}
+.cuadro3{
+    background-color: #ff0066;
+    width: 300px;
+    height: 300px;
+}
+.cuadro4{
+    background-color: #ff0099;
+    width: 300px;
+    height: 300px;
+}
+.cuadro5{
+    background-color: #ff00cc;
+    width: 300px;
+    height: 300px;
+}
+.cuadro6{
+    background-color: #ff00ff;
+    width: 300px;
+    height: 300px;
+}
+footer{
+    background-color: cadetblue;
+    height: 40px;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+body{
+    background-color: aquamarine;
+}
