@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div class="formulario">
+        <header>
+            <h1>Formulario de contacto</h1>
+        </header>
+        <div class="contenedor-formulario">
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre" tabindex='1' placeholder="Aca va tu nombre">
+                <label for="apellido">Apellido</label>
+                <input type="text" name="apellido"  id="apellido" tabindex='2'>
+                <p>Edad</p>
+                <diV class="radio">
+                    <input type="radio" id="edadR1" tabindex='3' name="edad" value='20-39'>
+                    <label for="edadR1">20-39</label>
+                    <input type="radio" id="edadR2" tabindex='3' name="edad" value='40-59'>
+                    <label for="edadR2">40-59</label>
+                    <input type="radio" id="edadR3" tabindex='3' name="edad" value='60-79'>
+                    <label for="edadR3">60-79</label>
+                </diV>
+                <label for="genero">Genero</label>
+                <select id="genero" name="genero">
+                    <option value="femeninno">Femenino</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="no binario">No binario</option>
+                    <option value="otres">Otres</option>
+                </select>
+                <label for="mail">Mail</label>
+                <input type="mail" name="mail" id="mail" placeholder="nombre@dominio.com.ar">
+                <label for="telefono">Telefono</label>
+                <input type="text" name="telefono" id="telefono" tabindex='2'>
+                <label for="mensaje">Mensaje</label>
+                <textarea type="text" name="mensaje" id="mensaje" placeholder="Mensaje" rows='10' cols='50' tabindex='8'></textarea>
+                <button>Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
