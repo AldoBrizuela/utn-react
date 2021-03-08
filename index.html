@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP2</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<h1>Inputs que se pueden utilizar para formularios</h1>
+<table>
+    <tr>
+        <th>Tipo</th>
+        <th>Ejemplo de uso</th>
+        <th>Descripción</th>
+    </tr>
+    <tr>
+        <td>text</td>
+        <td><input type="text" name="EjemploText"></td>
+        <td>Default. Defines a single-line text field</td>
+    </tr>
+    <tr>
+        <td>button</td>
+        <td><input type="button" value="Ejemplo-Button" name="Ejemplo-Button"></td>
+        <td>Defines a clickable button (mostly used with a JavaScript to activate a script)</td>
+    </tr>
+    <tr>
+        <td>checkbox</td>
+        <td>
+            <input type="checkbox" id="Check1" name="Check1" value="1">
+            <label for="Check1">Checkbox 1</label>
+            <input type="checkbox" id="Check2" name="Check2" value="2">
+            <label for="Check2">Checkbox 2</label>
+        </td>
+        <td>Defines a checkbox</td>
+    </tr>
+    <tr>
+        <td>color</td>
+        <td>
+            <label for="favcolor">Elegir Color</label>
+            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        </td>
+        <td>Defines a color picker</td>
+    </tr>
+    <tr>
+        <td>date</td>
+        <td>
+            <label for="date">Fecha</label>
+            <input type="date" id="date" name="date">
+        </td>
+        <td>Defines a date control (year, month, day (no time))</td>
+    </tr>
+    <tr>
+        <td>datetime-local</td>
+        <td>
+            <label for="datetime-local">Fecha hora</label>
+            <input type="datetime-local" id="datetime-local" name="datetime-local">
+        </td>
+        <td>Defines a date and time control (year, month, day, time (no timezone)</td>
+    </tr>
+    <tr>
+        <td>email</td>
+        <td>
+            <label for="email">Mail</label>
+            <input type="email" id="email" name="email" placeholder="mail@dominio.com.ar">
+        </td>
+        <td>Defines a field for an e-mail address</td>
+    </tr>
+    <tr>
+        <td>file</td>
+        <td>
+            <label for="myfile">Archivo</label>
+            <input type="file" id="myfile" name="myfile">
+        </td>
+        <td>Defines a file-select field and a "Browse" button (for file uploads)</td>
+    </tr>
+    <tr>
+        <td>hidden</td>
+        <td>
+            <input type="hidden" id="hiddenid" name="hiddenid" value="3487">
+        </td>
+        <td>Defines a hidden input field</td>
+    </tr>
+    <tr>
+        <td>image</td>
+        <td>
+            <input type="image" src="img.gif" alt="Imagen" width="48" height="48">
+        </td>
+        <td>Defines an image as the submit button</td>
+    </tr>
+    <tr>
+        <td>month</td>
+        <td>
+            <label for="month">Mes</label>
+            <input type="month" id="bdmonth" name="bdmonth">
+        </td>
+        <td>Defines a month and year control (no timezone)</td>
+    </tr>
+    <tr>
+        <td>number</td>
+        <td>
+            <label for="cantidad">Cantidad entre el 1 y 5</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" max="5">
+        </td>
+        <td>Defines a field for entering a number</td>
+    </tr>
+    <tr>
+        <td>password</td>
+        <td>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password">
+        </td>
+        <td>Defines a password field</td>
+    </tr>  
+    <tr>
+        <td>radio</td>
+        <td>
+            <input type="radio" id="hombre" name="genero" value="hombre">
+            <label for="hombre">Hombre</label><br>
+            <input type="radio" id="mujer" name="genero" value="mujer">
+            <label for="mujer">Mujer</label><br>
+            <input type="radio" id="otro" name="genero" value="Ooro">
+            <label for="otro">Otro</label>
+        </td>
+        <td>Defines a radio button</td>
+    </tr>
+    <tr>
+        <td>range</td>
+        <td>
+            <label for="puntos">Puntos entre 0 y 10</label>
+            <input type="range" id="puntos" name="puntos" min="0" max="10">
+        </td>
+        <td>Defines a range control (like a slider control)</td>
+    </tr>
+    <tr>
+        <td>reset</td>
+        <td>
+            <input type="reset" >
+        </td>
+        <td>Defines a reset button</td>
+    </tr>
+    <tr>
+        <td>search</td>
+        <td>
+            <label for="gsearch">Buscar en google</label>
+            <input type="search" id="gsearch" name="gsearch">
+        </td>
+        <td>Defines a text field for entering a search string</td>
+    </tr>
+    <tr>
+        <td>submit</td>
+        <td>
+            <input type="submit">
+        </td>
+        <td>Defines a submit button</td>
+    </tr>
+    <tr>
+        <td>tel</td>
+        <td>
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+        </td>
+        <td>Defines a field for entering a telephone number</td>
+    </tr>   
+    <tr>
+        <td>time</td>
+        <td>
+            <label for="tiempo">Seleccion tiempo</label>
+            <input type="time" id="tiempo" name="tiempo">
+        </td>
+        <td>Defines a control for entering a time (no timezone)</td>
+    </tr>
+    <tr>
+        <td>url</td>
+        <td>
+            <label for="inicio">Página de Inicio</label>
+            <input type="url" id="inicio" name="inicio">
+        </td>
+        <td>Defines a field for entering a URL</td>
+    </tr>
+    <tr>
+        <td>week</td>
+        <td>
+            <label for="semana">Semana</label>
+            <input type="week" id="semana" name="semana">
+        </td>
+        <td>	Defines a week and year control (no timezone)</td>
+    </tr>
+</table>
+<body>
+    
+</body>
+</html>
