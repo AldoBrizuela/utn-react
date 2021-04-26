@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: whitesmoke;
+}
+main{
+    width: 1100px;
+    margin: auto;
+    padding: 10px;
+}
+header{
+    position: sticky;
+    background-color: white;
+    }
+.menu{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    border-bottom: 4px transparent;
+}
+.menu a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.8rem;
+    margin-left: 15px;
+}
+.menu a:first-child{
+    margin-left: 0;
+}
+.menu a:hover{
+    color: gray;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.288);
+}
+.icono{
+    width: 80px;
+    filter: drop-shadow(1px 1px 3px gray);
+}
+.articulo img{
+    width: 350px;
+}
+aside{
+    max-width: 250px;
+}
+aside img{
+    width: 175px;
+}
+section{
+    display: flex;
+}
+
+
