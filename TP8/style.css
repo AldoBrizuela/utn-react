@@ -1,0 +1,14 @@
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+table, tr, th{
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+table {
+    margin: 15px;
+}
